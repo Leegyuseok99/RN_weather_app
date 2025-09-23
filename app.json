@@ -20,10 +20,18 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.leegyuseok.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "EXPO_PUBLIC_API_KEY":"${process.env.EXPO_PUBLIC_API_KEY}",
+      "eas": {
+        "projectId": "f5fd80d9-d6f8-4e56-aaf6-44b577a6904d"
+      }
+    },
+    "owner": "leegyuseok"
   }
 }
